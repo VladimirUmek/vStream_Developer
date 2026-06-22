@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package schemaVersion="1.7.56" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Open-CMSIS-Pack/Open-CMSIS-Pack-Spec/v1.7.56/schema/PACK.xsd">
+  <name>vStream_Developer</name>
+  <vendor>ARM</vendor>
+  <description>Projects for CMSIS vStream driver developer</description>
+  <url>https://github.com/VladimirUmek/vStream_Developer</url>
+  <repository type="git">https://github.com/VladimirUmek/vStream_Developer.git</repository>
+  <license>LICENSE</license>
+
+  <releases>
+    <release version="1.0.0-dev">
+      Active development ...
+        - Add vStream_Video reference application
+    </release>
+  </releases>
+
+  <requirements>
+    <packages>
+      <package vendor="ARM" name="CMSIS" version="6.3.0-0"/>
+    </packages>
+  </requirements>
+
+  <examples>
+    <example name="vStream_Video" folder="ref_app/vStream_Video" doc="README.md">
+      <description>Stream video from input to output using vStream.</description>
+      <project>
+        <environment name="csolution" load="vStream_Video.csolution.yml"/>
+      </project>
+    </example>
+  </examples>
+</package>

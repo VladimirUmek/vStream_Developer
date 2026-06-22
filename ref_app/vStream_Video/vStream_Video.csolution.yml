@@ -1,0 +1,21 @@
+solution:
+  created-for: CMSIS-Toolbox@2.14.1
+  cdefault:
+
+  select-compiler:
+    - compiler: AC6
+    - compiler: GCC
+    - compiler: CLANG
+    - compiler: IAR
+
+  packs:
+
+  target-types:
+
+  build-types:
+    - type: Debug
+      debug: on
+      optimize: none
+
+  projects:
+    - project: ./project/vStream_Video.cproject.yml
