@@ -21,6 +21,13 @@
   </requirements>
 
   <examples>
+    <example name="vStream_Audio" folder="ref_app/vStream_Audio" doc="README.md">
+      <description>Stream audio from input to output using vStream.</description>
+      <project>
+        <environment name="csolution" load="vStream_Audio.csolution.yml"/>
+      </project>
+    </example>
+
     <example name="vStream_Video" folder="ref_app/vStream_Video" doc="README.md">
       <description>Stream video from input to output using vStream.</description>
       <project>
