@@ -23,7 +23,7 @@
 
 #include "cmsis_os2.h"
 #include "app_main.h"
-#include "vstream_layout.h"
+#include "app_setup.h"
 
 /* Attributes for the app_main thread */
 const osThreadAttr_t thread_attr_main  = { .name = "app_main" };

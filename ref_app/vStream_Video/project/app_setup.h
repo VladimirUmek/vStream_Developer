@@ -16,8 +16,8 @@
  * limitations under the License.
  */
 
-#ifndef VSTREAM_LAYOUT_H_
-#define VSTREAM_LAYOUT_H_
+#ifndef APP_SETUP_H_
+#define APP_SETUP_H_
 
 #include "vstream_config.h"
 #include "image_processing_func.h"
@@ -115,4 +115,4 @@
 
 #endif
 
-#endif /* VSTREAM_LAYOUT_H_ */
+#endif /* APP_SETUP_H_ */

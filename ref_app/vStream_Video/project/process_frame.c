@@ -19,7 +19,7 @@
 #include <stdint.h>
 #include <string.h>
 
-#include "vstream_layout.h"
+#include "app_setup.h"
 #include "image_processing_func.h"
 
 /* Intermediate buffer for RAW8 debayering
